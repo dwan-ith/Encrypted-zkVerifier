@@ -1,0 +1,16 @@
+{
+  "name": "encrypted-zkverifier",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "circuits",
+    "frontend",
+    "contracts"
+  ],
+  "scripts": {
+    "setup": "npm install --workspace=circuits --workspace=frontend"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
